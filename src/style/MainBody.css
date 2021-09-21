@@ -1,0 +1,223 @@
+.searchsec {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+#searchbar {
+  height: 50px;
+  min-width: 450px;
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+  margin-right: -2px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+#search:focus-visible {
+  border: 1px solid #ddd;
+  outline: 0;
+}
+.searchsec .searchbtn {
+  height: 50px !important;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin-left: -1px;
+  background: #008bdc;
+  color: #fff;
+  border: 1px solid #008bdc;
+  border-radius: 0 5px 5px 0;
+}
+.carousel {
+  margin: 10px;
+  padding-top: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 358px;
+  margin-right: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+#cell1 {
+  background: url("E:\React Projects\internshala-homepage\src\assets\home_jobs-1920.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  color: #fff;
+  padding-left: 3rem;
+  padding-top: 4rem;
+  width: 100%;
+}
+#cell2 {
+  background: url("E:\React Projects\internshala-homepage\src\assets\home_internships-1920.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-left: 3rem;
+  padding-top: 4rem;
+  width: 100%;
+}
+#cell3 {
+  background: url("E:\React Projects\internshala-homepage\src\assets\child_rights.PNG");
+/* padding-left: 30px; */
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.flickity-page-dots li.dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+  transition: 0.5s all ease;
+}
+.flickity-page-dots li.is-selected {
+  width: 32px;
+  background: #008bdc;
+  border-radius: 15px;
+}
+#cell1 h3 {
+  font-size: 24px;
+  line-height: 1.333;
+  font-weight: 600;
+}
+#cell1 h1 {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+#cell1 h1 span {
+  background: #ffae00;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 2px 8px;
+  margin-left: 8px;
+  line-height: 24px;
+}
+#cell1 h4,
+#cell2 h4 {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+#cell1 img,
+#cell2 img {
+    /* margin:50px; */
+  width: 32px;
+  height: 32px;
+}
+#cell1 p,
+#cell2 p {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-top: 16px;
+}
+#cell2 h2 {
+  font-size: 32px;
+}
+#cell2 p {
+  margin-top: 32px;
+  color: #008bdc;
+}
+.popular {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 1.28571429;
+  font-weight: 600;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+p {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #484848;
+}
+p a {
+  color: #008bdc;
+  font-weight: 600;
+}
+h4 {
+  font-size: 18px;
+  line-height: 1.33333333;
+  font-weight: 600;
+}
+.cardholder {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+.cardholder a:hover {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+}
+.cardholder a:hover .text {
+  color: #008bdc;
+}
+.cardholder a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  padding: 5px;
+}
+h6 {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+h2 img {
+  margin-left: 10px;
+}
+.jobcrd {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.jobcrd a {
+  text-decoration: none;
+}
+h2 span {
+  background: #ff8c00;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  padding: 4px 16px;
+  margin-left: 4px;
+  position: relative;
+  bottom: 4px;
+}
