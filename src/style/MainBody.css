@@ -47,7 +47,7 @@
 
 
 #cell1 {
-  background: url("E:\React Projects\internshala-homepage\src\assets\home_jobs-1920.png");
+  background: url("E:\Github clones\internshala-homepage\src\assets\home_jobs-1920.png");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -57,7 +57,7 @@
   width: 100%;
 }
 #cell2 {
-  background: url("E:\React Projects\internshala-homepage\src\assets\home_internships-1920.png");
+  background: url("E:\Github clones\internshala-homepage\src\assets\home_internships-1920.png");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -66,7 +66,7 @@
   width: 100%;
 }
 #cell3 {
-  background: url("E:\React Projects\internshala-homepage\src\assets\child_rights.PNG");
+  background: url("E:\Github clones\internshala-homepage\src\assets\child_rights.PNG");
 /* padding-left: 30px; */
   background-position: center;
   background-size: cover;
